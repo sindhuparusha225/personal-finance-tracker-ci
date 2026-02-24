@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "build-all.js",
-"scripts": {
-  "build": "node build-all.js"
-},
+  "scripts": {
+    "build": "node build-all.js",
+    "start": "node server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
